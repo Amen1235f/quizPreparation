@@ -1,0 +1,93 @@
+/* JavaScriptDocument.module.css */
+.javascriptDocument {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(135deg, #e0e0e0 0%, #f4f4f4 100%);
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  background-color: #0056b3;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section h2 {
+  color: #0056b3;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 5px;
+}
+
+.codeBlock {
+  background-color: #1e1e1e; /* Black background for code blocks */
+  color: #d4d4d4; /* Light text color for contrast */
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.95rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Syntax highlighting */
+.codeText .keyword {
+  color: #c678dd; /* Purple for keywords */
+}
+
+.codeText .string {
+  color: #98c379; /* Green for strings */
+}
+
+.codeText .number {
+  color: #d19a66; /* Orange for numbers */
+}
+
+.codeText .comment {
+  color: #5c6370; /* Gray for comments */
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0056b3;
+  color: white;
+  border-top: 2px solid #003d7a;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,30 @@
+/* Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.navLogo {
+    font-size: 1.5rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1rem;
+}
+
+.logoutButton {
+    background-color: #ff4d4d; /* Red background for logout */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.logoutButton:hover {
+    background-color: #e60000; /* Darker red on hover */
+}

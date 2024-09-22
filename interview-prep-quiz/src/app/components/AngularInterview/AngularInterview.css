@@ -1,0 +1,115 @@
+.interview-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .questions-list {
+    margin-bottom: 20px;
+  }
+  
+  .question-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .question-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4D3F69;
+    margin-bottom: 10px;
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .answer-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  .hint-button {
+    background-color: #4D3F69;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  .hint-button:hover {
+    background-color: #373056;
+  }
+  
+  .submit-button {
+    background-color: #4D3F69;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #373056;
+  }
+  
+  .result {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+  }
+  
+  .result h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .result a {
+    text-decoration: none;
+    color: #4D3F69;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .result a:hover {
+    color: #373056;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+  

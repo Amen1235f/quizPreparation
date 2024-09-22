@@ -1,0 +1,46 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    color: #333;
+}
+
+.dashboard-header p {
+    color: #666;
+}
+
+.enrollment-list {
+    margin-top: 20px;
+}
+
+.enrollment-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.enrollment-item p {
+    margin: 5px 0;
+}
+
+.no-enrollments {
+    text-align: center;
+    color: #999;
+}

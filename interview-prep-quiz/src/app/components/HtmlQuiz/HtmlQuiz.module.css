@@ -1,0 +1,159 @@
+.htmlQuiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f0f4f8, #dfe9f3); /* Soft gradient background */
+    min-height: 100vh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    animation: backgroundColorChange 10s infinite; /* Animated background */
+  }
+  
+  /* Background Color Animation */
+  @keyframes backgroundColorChange {
+    0% { background-color: #f0f4f8; } /* Light grayish blue */
+    20% { background-color: #51929b; } /* Light cyan */
+    40% { background-color: #a41947; } /* Light pink */
+    60% { background-color: #26b832; } /* Light green */
+    80% { background-color: #d229f0; } /* Light purple */
+    100% { background-color: #4a78a7; } /* Back to light grayish blue */
+  }
+  
+  .htmlQuiz::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/images/network-wires.png') repeat;
+    background-size: 20%; /* Smaller background image */
+    opacity: 0.1; /* Subtle background image */
+    z-index: -1;
+    pointer-events: none;
+  }
+  
+  .quizTitle {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .questionText {
+    font-size: 1.6rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .optionsList {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+  }
+  
+  .optionItem {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .optionItem label {
+    font-size: 1.2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .optionItem label::before {
+    content: '✔'; /* Checkmark bullet */
+    color: #007bff; /* Blue color */
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .hintButton, .nextButton, .submitButton {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  }
+  
+  .hintButton:hover, .nextButton:hover, .submitButton:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hintButton {
+    background: #28a745;
+  }
+  
+  .hintButton:hover {
+    background: #218838;
+  }
+  
+  .currentAnswer {
+    font-size: 1rem;
+    color: #888;
+    margin: 15px 0;
+  }
+  
+  .result {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 25px;
+  }
+  
+  .advancedLink {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .advancedLink:hover {
+    text-decoration: underline;
+  }
+  
+  .iconContainer {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .htmlIcon {
+    width: 80px;
+    /* Removed spinning animation as per request */
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.9); /* Light transparent white */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Additional Styling for Icons and Layout */
+  .iconContainer img {
+    width: 40px; /* Adjusted size for icons */
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .optionItem {
+    display: flex;
+    align-items: center;
+  }
+  

@@ -1,0 +1,75 @@
+/* Additional styles for question cards and answers */
+.interview-container {
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px;
+    margin: 0 auto; /* Center align */
+  }
+  
+  .questions-list {
+    margin-top: 20px;
+  }
+  
+  .question-card {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between cards */
+    padding: 15px; /* Padding inside cards */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .question-title {
+    font-size: 1.2rem;
+    color: #007bff; /* Blue color for question titles */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 0;
+  }
+  
+  .answer {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333; /* Dark text color */
+  }
+  
+  .hint {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #888; /* Gray color for hints */
+  }
+  
+  .answer-input {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

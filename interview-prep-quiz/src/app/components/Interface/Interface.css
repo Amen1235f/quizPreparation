@@ -1,0 +1,119 @@
+/* Global Styles (Optional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f5;
+    color: #333;
+  }
+  
+  /* Interface Container */
+  .interface-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  /* Left Side Styles */
+  .left-side {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 20px;
+  }
+  
+  .left-side h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #4D3F69;
+  }
+  
+  .left-side p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .left-side p nav {
+    font-weight: 700;
+    color: #9D9BEB;
+  }
+  
+  .left-side button {
+    padding: 12px 24px;
+    background-color: #4D3F69;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .left-side button:hover {
+    background-color: #9D9BEB;
+  }
+  
+  /* Cards Container */
+  .cards-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .cards-container div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4D3F69;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .cards-container div:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card1 {
+    background-color: #9D9BEB;
+    color: #ffffff;
+  }
+  
+  .card2 {
+    background-color: #C6ABAB;
+  }
+  
+  .card3 {
+    background-color: #BF75CB;
+    color: #ffffff;
+  }
+  
+  /* Right Side Styles */
+  .right-side {
+    flex: 1;
+    max-width: 40%;
+    text-align: right;
+  }
+  
+  .right-side img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
